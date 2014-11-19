@@ -107,3 +107,31 @@
 	br.clear {
 		clear: both;
 	}
+
+	/* Sections/Articles */
+	
+		section,
+		article {
+			margin-bottom: 3em;
+		}
+		
+		section > :last-child,
+		article > :last-child {
+			margin-bottom: 0;
+		}
+
+		section > .content > :last-child,
+		article > .content > :last-child {
+			margin-bottom: 0;
+		}
+
+		section:last-child,
+		article:last-child {
+			margin-bottom: 0;
+		}
+
+		.row > section,
+		.row > article {
+			margin-bottom: 0;
+		}
+
