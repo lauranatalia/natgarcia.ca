@@ -251,4 +251,81 @@
 			ol.default li {
 				padding-left: 0.25em;
 			}
+			
+			/* Buttons */
+		
+		.button {
+			background-color: #FFFFFF;
+			border: 0;
+			border-radius: 3.5em;
+			color: #fff;
+			cursor: pointer;
+			display: inline-block;
+			height: 3.5em;
+			line-height: 3.5em;
+			outline: 0;
+			padding: 0 2em 0 2em;
+			position: relative;
+			text-align: center;
+			text-decoration: none;
+
+			-moz-appearance: none;
+			-webkit-appearance: none;
+			-o-appearance: none;
+			-ms-appearance: none;
+			appearance: none;
+
+			-moz-transition: all 0.2s ease-in-out;
+			-webkit-transition: all 0.2s ease-in-out;
+			-o-transition: all 0.2s ease-in-out;
+			-ms-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+		}
+			/* que tan delgado esta el boton de casa secion */
+			.button.down {
+				width: 5em;
+				height: 5em;
+				line-height: 4.5em;
+				padding: 0;
+				background-image: url('images/dark-arrow.svg');
+				background-position: center center;
+				background-repeat: no-repeat;
+				text-indent: -10em;
+				overflow: hidden;
+			}
+			/* que tan largo esta el boton de casa secion */
+					.button.down.anchored {
+					bottom: 0;
+					border-bottom: 0;
+					border-radius: 3em 3em 0 0;
+					height: 4.5em;
+					margin-left: -2.5em;
+				}
+			/* donde el boton de cada section esa localizado */
+			.button.anchored {
+				position: absolute;
+				left: 50%;
+			}
+			
+			.button:hover {
+				background-color: #a8d5a3;
+			}
+			
+			.button:active {
+				background-color: #88b583;
+			}
+
+			.button.style2 {
+				background-color: transparent;
+				border: solid 2px #e5e6e7;
+				color: inherit;
+			}
+
+				.button.style2:hover {
+					background-color: rgba(145,146,147,0.035);
+				}
+				
+				.button.style2.down {
+					background-image: url('images/arrow.svg');
+				}
 
