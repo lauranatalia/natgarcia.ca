@@ -328,4 +328,16 @@
 				.button.style2.down {
 					background-image: url('images/arrow.svg');
 				}
+				
+			/* Text Box */
+
+		.box {
+			background: #fff;
+			color: #39454b;
+			padding: 2em;
+		}
+		
+			.box.style2 {
+				padding: 3.5em 2.5em 3.5em 2.5em;
+			}
 
