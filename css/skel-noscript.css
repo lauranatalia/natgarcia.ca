@@ -21,6 +21,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 		margin-left: auto;
 		margin-right: auto;
 	}
+	
 
 	/* Modifiers */
 	
@@ -62,8 +63,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 		.\-2u { margin-left: 16.6666666667% }
 		.\-1u { margin-left: 8.3333333333% }
 		
-		*/
-
+		
 		.row > * {
 			padding: 50px 0 0 50px;
 			float: left;
@@ -82,7 +82,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 			margin-left: -50px;
 		}
 
-	/* Rows */
+	/* Rows 
 
 		.row:after {
 			content: '';
@@ -97,12 +97,14 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 		.row > * {
 			padding-top: 0;
-		}
+		}*/
 
+
+		
+		
+		
 		/* Modifiers */
-
-
-
+		
 				.row.flush {
 					margin-left: 0;
 				}
