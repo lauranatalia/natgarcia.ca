@@ -336,7 +336,8 @@
 
 		.box {
 			background: #fff;
-			color: #39454b;
+			opacity: 0.5;
+			color: #1F2223;
 			padding: 2em;
 		}
 		
@@ -655,6 +656,9 @@
 		.fa-bar-chart-o:before{content:"\f080"}
 		.fa-twitter-square:before{content:"\f081"}
 		.fa-facebook-square:before{content:"\f082"}
+		.fa-cubes:before{content:"\f1b3"}
+		.fa-behance:before{content:"\f1b4"}
+		.fa-behance-square:before{content:"\f1b5"} 
 		.fa-camera-retro:before{content:"\f083"}
 		.fa-key:before{content:"\f084"}
 		.fa-gears:before,.fa-cogs:before{content:"\f085"}
@@ -717,8 +721,6 @@
 		.fa-table:before{content:"\f0ce"}
 		.fa-magic:before{content:"\f0d0"}
 		.fa-truck:before{content:"\f0d1"}
-		.fa-pinterest:before{content:"\f0d2"}
-		.fa-pinterest-square:before{content:"\f0d3"}
 		.fa-google-plus-square:before{content:"\f0d4"}
 		.fa-google-plus:before{content:"\f0d5"}
 		.fa-money:before{content:"\f0d6"}
@@ -864,13 +866,9 @@
 		.fa-youtube-play:before{content:"\f16a"}
 		.fa-dropbox:before{content:"\f16b"}
 		.fa-stack-overflow:before{content:"\f16c"}
-		.fa-instagram:before{content:"\f16d"}
-		.fa-flickr:before{content:"\f16e"}
 		.fa-adn:before{content:"\f170"}
 		.fa-bitbucket:before{content:"\f171"}
 		.fa-bitbucket-square:before{content:"\f172"}
-		.fa-tumblr:before{content:"\f173"}
-		.fa-tumblr-square:before{content:"\f174"}
 		.fa-long-arrow-down:before{content:"\f175"}
 		.fa-long-arrow-up:before{content:"\f176"}
 		.fa-long-arrow-left:before{content:"\f177"}
@@ -1052,7 +1050,7 @@
 		height: 5em;
 		line-height: 5em;
 		margin: 0;
-		background: #39454b;
+		background: #1F2223;
 		color: #999;
 		color: rgba(185,186,187,0.5);
 		overflow: hidden;
