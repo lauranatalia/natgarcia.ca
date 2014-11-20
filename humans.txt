@@ -9,10 +9,18 @@ Twitter: @lauranataliagv
 
 #THANKS
 
-Dowloaded Code thing © Some person: http//codething.com
-Stock Image © Another Person http//codething.com
+Dowloaded Code 
+
+Big Pictuare inspiration © html5up: http://html5up.net/big-picture
+Stock Image © subtlepatterns http://subtlepatterns.com/page/6/
 
 # Tools
+
+Dreamweaver
+Illustrator
+Photoshop
+Github
+Hover.com
 
 Sublime Text
 Github
