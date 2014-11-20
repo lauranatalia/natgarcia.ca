@@ -413,15 +413,17 @@
 				}
 
 					.main.style2.left .content {
-						left: 0;
+						left: 28%;
 					}
 
 				.main.style2.right {
+					
 				}
 
-					.main.style2.right .content {
+					 {
 						left: 65%;
 					}
+					
 
 				.main.style2.inactive {
 				}
@@ -430,7 +432,7 @@
 					}
 
 						.main.style2.inactive.left .content {
-							left: -35%;
+							left: 100%;
 						}
 
 						.main.style2.inactive.right .content {
