@@ -9,10 +9,10 @@ Twitter: @lauranataliagv
 
 #THANKS
 
-Dowloaded Code 
-
-Big Pictuare inspiration © html5up: http://html5up.net/big-picture
+http://fancybox.net
 Stock Image © subtlepatterns http://subtlepatterns.com/page/6/
+http://fortawesome.github.io/Font-Awesome/get-started/
+
 
 # Tools
 
@@ -26,4 +26,3 @@ Sublime Text
 Github
 Photoshop
 Hover.com
-
