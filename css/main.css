@@ -38,10 +38,18 @@ h2{
 	color: #fff;
 }
 
+h3{ 
+	text-align: center
+}
+
 p {
 	font-size: 1rem;
 	font-weight: 300;
 	line-height: 150%;
+}
+
+.copyright{
+	padding-right: 4rem;
 }
 
 ul{
@@ -108,6 +116,22 @@ header {
 
 /* ======= PORTFOLIO ======= */
 
+	.portfolio{
+		background-image: url(../images/bg2.jpg);
+		padding-top: 5rem;
+	}
+	
+	.example-image-link{
+		width:50%;
+		display: block;
+		
+	}
+	
+	.example-image{
+		width: 50%;
+		display: block;
+	}
+	
 
 
 /* ======= CONTACT ======= */
@@ -179,7 +203,7 @@ header {
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active{
-	background-color: #33f5ec;
+	background-color: 33f5ec;
 }
 
 .nav a, 
