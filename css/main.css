@@ -70,7 +70,7 @@ header {
 	margin-top: 1.5rem;
 	float:left;
 	width: 200px;
-	position: absolute;
+	/*position: absolute;*/
 }
 
 .clear { 
