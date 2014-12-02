@@ -46,6 +46,8 @@ p {
 	font-size: 1rem;
 	font-weight: 300;
 	line-height: 150%;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .copyright{
