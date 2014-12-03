@@ -118,22 +118,7 @@ header {
 
 /* ======= PORTFOLIO ======= */
 
-	.portfolio{
-		background-image: url(../images/bg2.jpg);
-		padding-top: 5rem;
-	}
-	
-	.example-image-link{
-		width:50%;
-		display: block;
-		
-	}
-	
-	.example-image{
-		width: 50%;
-		display: block;
-	}
-	
+
 
 
 /* ======= CONTACT ======= */
