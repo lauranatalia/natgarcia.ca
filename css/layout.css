@@ -95,7 +95,18 @@ body {
 	.portfolio img {
 		max-width:100%;
 		position: relative;
+		/* portfolio opacity */
+		-webkit-transition: all .9s ease-in-out;
+		-webkit-transition: all .4s ease-in-out;
+		-moz-transition: all .4s ease-in-out;
 	}
+	/* portfolio opacity */
+	.portfolio img:hover{
+	opacity: .5;
+	-webkit-transition: all .9s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+}
 	
 	.portfolio .label {
 		position: absolute;
