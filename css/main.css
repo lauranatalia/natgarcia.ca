@@ -420,17 +420,18 @@ header{
 		text-align: center;
 	}
 
-.social li a,
-.social li a:link,
-.social li a:visited {
-	
-	font-size: 40px;
+.social a,
+.social a:link,
+.social a:visited {
+	color: #000000;
+	font-size: 30px;
+	text-decoration: none;
 }
 	
-.social li a:hover,
-.social li a:active,
-.social li a:focus {
-	color: #FFC5F2;
+.social a:hover,
+.social a:active,
+.social a:focus {
+	color: #FF00E5;
 	
 }
 
@@ -444,9 +445,9 @@ header{
 		text-align: right;
 	}
 
-	.social li a,
-	.social li a:link,
-	.social li a:visited {
+	.social a,
+	.social a:link,
+	.social a:visited {
     	height: 60px;
 		width: 60px;
 		font-size: 27px;
