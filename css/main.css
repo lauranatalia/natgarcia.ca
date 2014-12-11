@@ -130,6 +130,15 @@ header{
 
 /* PORTFOLIO */
 
+.text-title{
+	padding-top: 1em;
+}
+	
+
+.text-category{
+	padding-top: 1em;
+}
+
 .container{
 	padding-top:1rem;
 	padding-bottom: 1rem;
