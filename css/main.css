@@ -4,13 +4,7 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-/*
-	-webkit-animation: dipper-fade 1s linear forwards;	
-	-ms-animation: dipper-fade 1s linear forwards;	
-	-moz-animation: dipper-fade 1s linear forwards;	
-	-o-animation: dipper-fade 1s linear forwards;
-	animation: dipper-fade 1s linear forwards;
-*/
+
 
 *, *:before, *:after {
     -moz-box-sizing: border-box;
@@ -179,7 +173,7 @@ header{
 .footer{
 	display:block;
 }
-/* ======= TRANSITIONS =======*/
+/* TRANSITIONS */
 
 .ease-all{
 	-webkit-transition: all 350ms ease-in-out;
@@ -215,7 +209,7 @@ header{
 
 
 
-/* ======= NAVIGATION STYLES ======= */
+/*  NAVIGATION STYLES  */
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
@@ -282,12 +276,8 @@ header{
 	
 }
 
-/* -------------Social media ------------*/
 
-
-
-
-/* ======= RESPONSIVE - TABLET SCREEN ======= */
+/* RESPONSIVE - TABLET SCREEN  */
 
 @media only screen and (min-width:35em) {
 	.banner{
@@ -395,12 +385,12 @@ header{
 	}
 	
 	.copyright{
-	padding-right: 2rem;
+	padding-right: 4rem;
 }
 	
 	
 }
-/* ---------- Transitions ------------------------------------------------------------------ */
+/*  Transitions */
 
 .ease-all {
 	-webkit-transition: all 450ms ease-in-out;
@@ -412,7 +402,6 @@ header{
 
 .social {
 		padding: 0%;
-		padding-left: 5%;
 		text-align:center;
 }
 
