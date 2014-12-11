@@ -56,9 +56,6 @@ p {
 	padding-right: 1rem;
 }
 
-.copyright{
-	padding-right: 4rem;
-}
 
 ul{
 		list-style-type: none;
@@ -160,6 +157,7 @@ header{
 }
 
 .contact h2{
+	line-height: 100%;
 	padding-top:1rem;
 	padding-bottom: 3rem;
 }
@@ -387,6 +385,10 @@ header{
 	.clear { 
 		clear: both ;
 	}
+	
+	.copyright{
+	padding-right: 2rem;
+}
 	
 	
 }
