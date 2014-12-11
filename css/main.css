@@ -45,7 +45,7 @@ h2{
 }
 
 h3{ 
-	text-align: center
+	text-align: center;
 }
 
 p {
@@ -66,7 +66,7 @@ ul{
 
 /* ======= HEADER SECTION ======= */
 
-header {
+header{
 	padding: 0 0 0;
 	height: 100%;
 	background-color:#333;
@@ -90,7 +90,7 @@ header {
 .banner{
 	padding-top:17rem;
 	padding-bottom: 18rem;
-	background-color: #545454;
+	background-color: transparent;
 	text-align:center;
 	background-image: url(../images/bg1.jpg);
 }
@@ -122,12 +122,12 @@ header {
 }
 
 
-/* ======= PORTFOLIO ======= */
+/* PORTFOLIO */
 
 
 
 
-/* ======= CONTACT ======= */
+/* CONTACT */
 
 .contact{
 	padding-top:15rem;
@@ -174,9 +174,7 @@ header {
 	display: block;
 }
 
-.fade-banner p {
-	animation-delay: 500ms;
-}
+
 
 
 /* ======= NAVIGATION STYLES ======= */
