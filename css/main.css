@@ -67,7 +67,7 @@ ul{
 /* ======= HEADER SECTION ======= */
 
 header{
-	padding: 0 0 0;
+	padding: 2px 1px 2px;
 	height: 100%;
 	background-color:#333;
 }
@@ -78,7 +78,6 @@ header{
 	margin-top: 1.5rem;
 	float:left;
 	width: 200px;
-	/*position: absolute;*/
 }
 
 .clear { 
@@ -88,11 +87,21 @@ header{
 
 /* ======= BANNER ======= */
 .banner{
-	padding-top:17rem;
-	padding-bottom: 18rem;
+	padding-top:13rem;
+	padding-bottom: 11rem;
 	background-color: transparent;
 	text-align:center;
 	background-image: url(../images/bg1.jpg);
+}
+
+.banner h2{
+	padding-top:2rem;
+	padding-bottom: 2rem;
+}
+
+.banner p{
+	font-size:22px;
+	color:#000000;
 }
 
 
@@ -104,7 +113,7 @@ header{
 	background-color: #999;
 	text-align:center;
 	background-image: url(../images/bg10.jpg); 
-	padding: 6rem 0%;
+	padding: 11rem 0%;
 }
 
 .about h2 {
@@ -115,26 +124,49 @@ header{
 
 .about h2{
 	color: #fff;
+	margin-bottom: 1em;
+	
 }
 
 .about p{
+	font-size:19px;
 	color:#000000;
 }
 
 
 /* PORTFOLIO */
 
+.container{
+	padding-top:3rem;
+	padding-bottom: 4rem;
+}
 
-
+.container p{
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	text-align:center;
+	font-size:19px;
+	color:#000000;
+}
 
 /* CONTACT */
 
 .contact{
-	padding-top:15rem;
+	padding-top:10rem;
 	padding-bottom: 14rem;
 	background-color: #FFFFFF;
 	background-image: url(../images/bg7.jpg);
 	text-align: center;
+}
+
+.contact h2{
+	padding-top:1rem;
+	padding-bottom: 3rem;
+}
+
+.contact p{
+	font-size:19px;
+	color:#000000;
 }
 
 
