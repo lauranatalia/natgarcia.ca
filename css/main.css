@@ -66,7 +66,7 @@ ul{
 header{
 	padding: 2px 1px 2px;
 	height: 100%;
-	background-color:#333;
+	background-color:#000000;
 }
 
 .logo img {
@@ -84,7 +84,7 @@ header{
 
 /* ======= BANNER ======= */
 .banner{
-	padding-top:13rem;
+	padding-top:12rem;
 	padding-bottom: 11rem;
 	background-color: transparent;
 	text-align:center;
@@ -92,25 +92,26 @@ header{
 }
 
 .banner h2{
+	font-size:60px;
 	padding-top:2rem;
 	padding-bottom: 2rem;
 }
 
 .banner p{
 	font-size:22px;
-	color:#000000;
+	color:#FFFFFF;
 }
 
 
 /* ======= ABOUT ======= */
 
 .about{
-	padding-top:3rem;
-	padding-bottom: 4rem;
+	padding-top:7rem;
+	padding-bottom: 6rem;
 	background-color: #999;
 	text-align:center;
-	background-image: url(../images/bg10.jpg); 
-	padding: 11rem 0%;
+	background-image: url(../images/bg10.jpg);
+	padding: 2rem 0%;
 }
 
 .about h2 {
@@ -120,12 +121,14 @@ header{
 }
 
 .about h2{
-	color: #fff;
+	color: #000000;
 	margin-bottom: 1em;
+	margin-top: 3em;
 	
 }
 
 .about p{
+	margin-bottom: 2em;
 	font-size:19px;
 	color:#000000;
 }
@@ -149,9 +152,9 @@ header{
 /* CONTACT */
 
 .contact{
-	padding-top:10rem;
-	padding-bottom: 14rem;
-	background-color: #FFFFFF;
+	padding-top:3rem;
+	padding-bottom: 3rem;
+	background-color: #000000;
 	background-image: url(../images/bg7.jpg);
 	text-align: center;
 }
@@ -163,10 +166,15 @@ header{
 }
 
 .contact p{
+	text-align: center;
 	font-size:19px;
-	color:#000000;
+	color:#FFFFFF;
 }
 
+.arrow {
+	color: #FFFFFF;
+	
+}
 
 .footer{
 	display:block;
@@ -245,11 +253,11 @@ header{
 .nav a:focus,
 .nav a:active{
 	border-radius: 5px;
-	color: #33f5ec;
+	color: #FFC5F2;
 }
 
 .nav-btn[data-state="active"] {
-	background: #33f5ec url('../images/nav-close.svg') no-repeat center center;
+	background: #FFFFFF url('../images/nav-close.svg') no-repeat center center;
 }
 
 .nav-top{
@@ -422,7 +430,7 @@ header{
 .social li a:hover,
 .social li a:active,
 .social li a:focus {
-	color: #33f5ec;
+	color: #FFC5F2;
 	
 }
 
@@ -447,22 +455,3 @@ header{
 
 }
 
-/* ---------- Section Styles --------------------------------------------------------------- */
-/* Pink */
-.section-dark {
-	
-	opacity: 0.9;
-}
-/* red */
-.section-medium {
-	
-}
-/* Hola esta localizado */
-.section-light {
-	height: 43rem;
-	padding-top: 20rem;
-}
-
-.text-right{
-	text-align: right;
-}
