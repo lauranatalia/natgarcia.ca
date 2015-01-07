@@ -158,7 +158,7 @@ img {
 /*-------------------------HOME SECTION-------------------------*/
 
 .hola {
-	font-size: 4em;
+	font-size: 6em;
 }
 
 .home {
@@ -227,6 +227,7 @@ img {
 }
 
 .subhead {
+	font-size: 1em;
 	opacity: 0;
 }
 
