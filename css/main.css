@@ -122,7 +122,7 @@ img {
 	color: #FFFFFF; /*color de la font en navigacion de movil */
 	text-decoration: none;
 	border: none;
-	background-color: rgba(255,255,255,.75);
+	background-color: rgba(90, 82, 82, 0.45); /* color de la navigacion de mobil. drop menu*/
 	transition: color 300ms ease-in;
 	-moz-transition: color 300ms ease-in;
 	-webkit-transition: color 300ms ease-in;
@@ -135,7 +135,7 @@ img {
 
 .nav a:hover,
 .nav a:active {
-	color: rgba(255,255,255,1.00);
+	color: rgba(230, 0, 139, 0.95); /*COLOR DE LAS LETRAS DE LA NAVEGACION EN MOBILE PINK*/
 	background-color: rgba(0,0,0,.5);
 }
 
