@@ -135,7 +135,8 @@ img {
 
 .nav a:hover,
 .nav a:active {
-	color: rgba(230, 0, 139, 0.95); /*COLOR DE LAS LETRAS DE LA NAVEGACION EN MOBILE PINK*/
+	/*color: rgba(230, 0, 139, 0.95);*/
+	color: rgba(66, 244, 244, 0.95); /*COLOR DE LAS LETRAS DE LA NAVEGACION EN MOBILE PINK*/
 	background-color: rgba(0,0,0,.5);
 }
 
@@ -381,6 +382,7 @@ img {
 
 .contact {
 	font-family: 'Lato', sans-serif;
+	color: #ffffff;
 	text-align: center;
 	padding: 4em 0 0;
 	background: transparent  url('../img/bg7.jpg') no-repeat center top;
@@ -432,14 +434,15 @@ img {
 .social li a:link,
 .social li a:visited {
 	display: inline-block;
-	color: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
 	width: 60px;
 }
 
 .social li a:hover,
 .social li a:active,
 .social li a:focus {
-	color: #FF00CD;
+	/*color: #FF00CD;*/
+	color: #42f4f4;
 }
 
 /*-------------------------GRID-------------------------*/
@@ -503,7 +506,7 @@ img {
 	.nav a:hover,
 	.nav a:active {	
     	opacity: .75;
-		color: rgba(255, 0, 255, 0.75); /*Magenta navigation*/
+		color: rgba(66, 244, 244, 100); /*Magenta navigation*/
 		
 	}
 	
